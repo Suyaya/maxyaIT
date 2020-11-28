@@ -197,6 +197,7 @@ h2 {
   width: 100%;
   background: #fca311;
   display: flex;
+  align-items: flex-start;
   justify-content: center;
 }
 
