@@ -146,6 +146,7 @@ h2 {
 }
 
 .links {
+  box-sizing:border-box;
   display: none;
   width: 100vw;
   height: 200px;
