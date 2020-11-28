@@ -109,6 +109,11 @@
     list-style-type: none;
   }
  
+  input{
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    }
+
   /* =========================HEADER=============================== */
   .header-wrapper {
     padding: 32px 32px 0 32px;
