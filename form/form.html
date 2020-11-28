@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>MaxyaIT | FORM</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <!-- <link rel="manifest" href="site.webmanifest"> -->
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8fd0a942b6.js" crossorigin="anonymous"></script>
+  
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/form.css">
+  <meta name="theme-color" content="#fafafa"> 
+</head>
+
+<body>
+    <header id="home">
+        <div class="header-wrapper">
+            <div class="logo">
+                <a href="../index.html" target="_blank"><img src="../img/logo-maxyait.png" alt="MaxYaIt-logo"></a>
+            </div> <!--logo-->
+
+            <div class="mobile-menu" >
+                <i class="fas fa-bars" onclick="toggleMenu()"></i>
+            </div><!--mobile-menu-->
+
+            <div class="links">
+                <nav>
+                    <ul>
+                        <li class="link"><a href="../index.html#about" target="_blank">ABOUT</a></li>
+                        <li class="link"><a href="../index.html#work" target="_blank">MY WORK</a></li>
+                        <li class="link"><a href="../index.html#clients" target="_blank">MY CLIENTS</a></li>
+                        <li class="link"><a href="../index.html#contact" target="_blank">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div> <!--links-->
+        </div><!--header-wrapper-->
+    </header>
+
+    <main>
+        <div class="main-wrapper">
+            <div class="form-headline">
+                <hr class="left">
+                <h2>Ok! Let's get into it!</h2>
+                <hr class="right">
+            </div>
+            <div class="form-wrapper">
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" class="name">
+                    <label for="email">Email</label>
+                    <input type="email" class="email">
+                    <label for="budget">Budget</label>
+                    <select name="budget" id="budget">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                    <label for="summary">Summary of project</label>
+                    <textarea name="summary" id="summary" cols="30" rows="10"></textarea>
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+            
+           
+        </div>
+    </main>
+</body>
+
+<script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/flip.js"></script>
+<script src="../js/slide.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
